@@ -1,0 +1,42 @@
+
+.intro-section {
+    height: 100vh;
+    background-image: url('../../assets/images/designer_1.png');
+    background-size: 60% 100vh; /* Ensures the image covers the whole area */
+    background-position: right ;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: flex;
+    flex-direction: column;
+    padding: 0px 180px;
+}
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100%; 
+  }
+.buttons-container{
+    margin-top: 50px;
+}
+.information-text h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #091133;
+  }
+  .information-text p{
+    font-size: 1.125rem;
+    color: #505F98;
+  }
+
+
+  
+@media (max-width:767px) {  
+.intro-section {
+      padding:0px !important;
+      height: 71vh;
+      background-size: contain !important;
+      
+  }
+  
+  }
+  
